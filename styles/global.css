@@ -7,4 +7,16 @@
 }
 
 :root {
+  --color-blue: #4fc3f7;
+  --color-white: #f5f5f5;
+  --color-gray: #c1c1c1;
+  --color-black: #1a1a1a;
+
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-inter: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-black);
 }
