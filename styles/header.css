@@ -24,5 +24,7 @@ header {
 
   a:hover {
     color: var(--color-blue);
+    font-size: 20px;
+    transition: 0.8s;
   }
 }
