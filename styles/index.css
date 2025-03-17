@@ -1,3 +1,7 @@
 @import url(global.css);
+@import url(utility.css);
 @import url(header.css);
 @import url(home.css);
+@import url(button.css);
+@import url(about.css);
+@import url(projects.css);
