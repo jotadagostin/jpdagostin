@@ -24,8 +24,12 @@
       img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        width: 100%; /* Faz com que a imagem ocupe toda a largura do card */
+        height: auto; /* Ajusta a altura proporcionalmente */
+        object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
       }
     }
+
     h3 {
       font-family: "Inter";
       font-style: normal;
