@@ -5,3 +5,22 @@
   align-items: center;
   margin-bottom: 200px;
 }
+
+@media screen and (max-width: 390px) {
+  #about {
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      width: 340px;
+      height: 214px;
+    }
+  }
+}
