@@ -28,3 +28,103 @@ header {
     transition: 0.8s;
   }
 }
+
+nav {
+  display: none;
+}
+/* Menu mobile */
+
+@media screen and (max-width: 390px) {
+  header {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #232323;
+    color: #cdcdcd;
+  }
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+  #menuToggle li:hover {
+    color: gray;
+  }
+  #menuToggle input {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 32px;
+    top: -7px;
+    left: -5px;
+    opacity: 0;
+    z-index: 2;
+  }
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: #cdcdcd;
+    position: relative;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out,
+      opacity 0.55s ease;
+  }
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, 1px);
+    background: #232323;
+  }
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  #menu {
+    position: absolute;
+    width: 200px;
+    margin: -100px 0px 0px -50px;
+    padding: 120px 50px 50px 50px;
+    background: var(--color-black);
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s ease-in-out;
+    a {
+      text-decoration: none;
+    }
+  }
+  #menu li {
+    padding: 10px 0px;
+    font-size: 22px;
+    color: var(--color-gray);
+    font-family: var(--ff-montserrat);
+    font-style: normal;
+    font-weight: 500;
+  }
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+}
