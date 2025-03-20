@@ -132,3 +132,24 @@
     line-height: 149.02%;
   }
 }
+
+/* mobile version */
+
+@media screen and (max-width: 390px) {
+  #contact {
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      width: 340px;
+      height: 214px;
+    }
+  }
+}
