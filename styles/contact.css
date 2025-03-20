@@ -121,4 +121,14 @@
       }
     }
   }
+
+  #contact-message {
+    resize: none;
+    color: var(--color-blue);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.02%;
+  }
 }
