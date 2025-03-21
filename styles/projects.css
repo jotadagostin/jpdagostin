@@ -82,16 +82,25 @@
       font-size: 18px;
     }
 
+    h3 {
+      text-align: center;
+    }
+
     p {
       font-size: 14px;
       text-align: center;
-      width: 340px;
-      height: 214px;
+
+      background-color: green;
     }
     & .project-cards {
       justify-content: space-evenly;
       flex-direction: column;
       align-items: center;
+
+      & .project-card {
+        width: 336px;
+        height: 344px;
+      }
     }
   }
 }
