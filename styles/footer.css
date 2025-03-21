@@ -31,3 +31,21 @@ footer {
     border-radius: 50%;
   }
 }
+
+/* mobile version */
+
+@media screen and (max-width: 390px) {
+  footer {
+    height: 180px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    .footer-icons {
+      margin-bottom: 40px;
+    }
+
+    div {
+      font-size: 12px;
+    }
+  }
+}
