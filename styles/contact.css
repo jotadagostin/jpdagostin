@@ -104,8 +104,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 310px;
-      height: 76px;
+      padding: 15px;
       border: 1px solid var(--color-gray);
       border-radius: 15px;
       gap: 9px;
@@ -137,6 +136,10 @@
 
 @media screen and (max-width: 390px) {
   #contact {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
     h1 {
       font-size: 36px;
     }
@@ -148,8 +151,54 @@
     p {
       font-size: 14px;
       text-align: center;
-      width: 340px;
-      height: 214px;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .contact-infos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    input,
+    textarea,
+    .form-button {
+      width: 331px;
+      max-width: 100%;
+      margin-left: 15px;
+    }
+
+    label {
+      margin: 10px;
+      width: 50%;
+      font-size: 16px;
+    }
+
+    .contact-work_together {
+      flex-direction: row;
+      max-width: 100%;
+      height: auto;
+      gap: 40px;
+      padding: 20px 50px 20px 30px;
+
+      h1 {
+        width: 161px;
+        height: 38px;
+        font-size: 18px;
+      }
+
+      .contact-work_together__email {
+        img {
+          width: 15px;
+          height: 15px;
+        }
+        p {
+          font-size: 10px;
+        }
+      }
     }
   }
 }
