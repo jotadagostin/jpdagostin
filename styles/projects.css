@@ -89,8 +89,6 @@
     p {
       font-size: 14px;
       text-align: center;
-
-      background-color: green;
     }
     & .project-cards {
       justify-content: space-evenly;

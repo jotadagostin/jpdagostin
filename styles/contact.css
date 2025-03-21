@@ -166,7 +166,7 @@
     input,
     textarea,
     .form-button {
-      width: 331px;
+      width: 345px;
       max-width: 100%;
       margin-left: 15px;
     }
@@ -183,6 +183,7 @@
       height: auto;
       gap: 40px;
       padding: 20px 50px 20px 30px;
+      margin-bottom: 46px;
 
       h1 {
         width: 161px;
