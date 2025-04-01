@@ -44,8 +44,9 @@
 
 @media screen and (max-width: 390px) {
   #home {
-    background: url("/assets/images/Rectangle\ 4-mobile.svg") top center/cover
-      no-repeat;
+    background: none;
+    /* background: url("/assets/images/Rectangle\ 4-mobile.svg") top center/cover
+      no-repeat; */
     background-attachment: fixed;
 
     .home-profile {
