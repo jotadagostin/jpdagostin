@@ -43,6 +43,7 @@
     margin-bottom: 16px;
     border: 1px solid #d6dded;
     border-radius: 10px;
+    color: var(--color-blue);
     width: 696px;
     height: 70px;
     background-color: transparent;
