@@ -83,6 +83,17 @@
     }
   }
 
+  .work-progress {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-white);
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
   /* mobile version */
 
   @media screen and (max-width: 390px) {
