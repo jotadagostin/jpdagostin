@@ -16,7 +16,7 @@
 
   & .project-card {
     margin-top: 150px;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     padding-bottom: 15px;
     border-radius: 10px;
     width: 355.67px;
@@ -114,12 +114,12 @@
         font-size: 14px;
         text-align: center;
       }
-      & .project-cards {
+      .project-cards {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
 
-        & .project-card {
+        .project-card {
           width: 336px;
           height: 344px;
         }
